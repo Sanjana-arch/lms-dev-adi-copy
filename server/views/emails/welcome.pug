@@ -1,0 +1,25 @@
+extends baseEmail
+
+block content
+    p Hi #{firstName},
+    p Welcome to Madie Games, we're glad to have you 🎉🙏
+    p Here are your login credentials : 
+    table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+        tbody
+            tr 
+                td(align='left')
+                    tr
+                        td
+                            p Email : #{to}
+                    tr
+                        td
+                            p Temporary password : #{password}
+            tr
+                td(align='left')
+                    table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+                        tbody
+                            tr
+                                td
+                                    a(href=`${url}`, target='_blank') Visit our Games section to start playing games!
+    p If you need any help with booking your next game, please don't hesitate to contact me!
+    p - Senthil Kumar G, Founder & CEO

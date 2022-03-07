@@ -1,0 +1,524 @@
+/*                                      NOT FOUND PAGE                          */
+
+@keyframes floating {
+  from {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.not-found {
+  background-image: url("https://assets.codepen.io/1538474/star.svg"),
+    linear-gradient(to bottom, #05007a, #4d007d);
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.mars {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 27vmin;
+  background: url("https://assets.codepen.io/1538474/mars.svg") no-repeat bottom
+    center;
+  background-size: cover;
+}
+.logo-404 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 16vmin;
+  width: 30vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .logo-404 {
+    top: 45vmin;
+  }
+}
+.meteor {
+  position: absolute;
+  right: 2vmin;
+  top: 16vmin;
+}
+.title {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 5vmin;
+  margin-top: 31vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .title {
+    margin-top: 65vmin;
+  }
+}
+.subtitle {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 3.5vmin;
+  margin-top: -1vmin;
+  margin-bottom: 9vmin;
+}
+.btn-back {
+  border: 1px solid white;
+  color: white;
+  height: 5vmin;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-back:hover {
+  background: white;
+  color: #4d007d;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .btn-back {
+    font-size: 3.5vmin;
+  }
+}
+.astronaut {
+  position: absolute;
+  top: 18vmin;
+  left: 10vmin;
+  height: 30vmin;
+  animation: floating 3s infinite ease-in-out;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .astronaut {
+    top: 2vmin;
+  }
+}
+.spaceship {
+  position: absolute;
+  bottom: 15vmin;
+  right: 24vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .spaceship {
+    width: 45vmin;
+    bottom: 18vmin;
+  }
+}
+
+/*              GAME PORTAL             */
+
+.game-portal {
+  transition: all 0.6s ease-out;
+}
+.meeting-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 99vw;
+  height: 60vh;
+}
+.meeting-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-bar-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 0.5rem;
+  z-index: 999;
+}
+
+.meeting-form-input input {
+  width: 80%;
+  margin-top: 1rem;
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+.meeting-form-input button {
+  width: 17%;
+  margin: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+.title-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.click-to-copy {
+  padding: 0.3rem 0.5rem;
+  color: #e5e5e5;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #0e153a;
+  width: 2rem;
+  margin-top: 0.5rem;
+}
+.click-to-fullscreen {
+  padding: 0.3rem 0.5rem;
+  color: #e5e5e5;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: #0e153a;
+  width: 2rem;
+  margin-top: 0.5rem;
+}
+#meetingSDKElement {
+  position: static !important;
+}
+.game-title {
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  flex: 8;
+}
+.game-portal-main {
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+.game-portal-left {
+  flex: 8;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 85vh;
+}
+.game-portal-video {
+  width: 25vw;
+  height: 85vh;
+  border-radius: 10px;
+  z-index: 999;
+}
+.game-portal-gameFrame iframe {
+  width: 70vw;
+  min-height: 85vh;
+  border-radius: 10px;
+  z-index: 999;
+}
+.game-portal-options {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game-portal-video-small {
+  height: 20vh;
+  width: 15vw;
+}
+.game-portal-options-icons {
+  height: 80vh;
+  min-width: 15vw;
+  margin-left: 12rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.game-portal-options-icons button i {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+.text-center {
+  text-align: center;
+}
+
+/*                              GAME SELECT                         */
+.img-madiee {
+  border-radius: 50%;
+}
+/*Admin*/
+#zmmtg-root {
+  display: none;
+}
+
+/* To show */
+.admin-game-portal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.admin-game-portal-main {
+  flex: 7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.admin-game-portal-title {
+  flex: 3;
+}
+.admin-game-portal-controls {
+  flex: 1;
+  padding: 1rem 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+iframe {
+  border-radius: 10px;
+}
+/*							Login Page 			*/
+.login-form {
+  width: 60vw;
+  height: 97vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(192, 192, 192);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -150px;
+}
+.input-group *{
+  margin: 0.7rem;
+  vertical-align: top;
+}
+.input-group textarea{
+  padding: 8px;
+}
+
+/*							dashboard*/
+/* .nav-portal {
+  display: flex;
+  flex-direction: column;
+}
+.nav-portal-top h1 {
+  font-size: 2.5rem;
+}
+.nav-portal-mid {
+  width: 100%;
+  height: 60px;
+  background: #111827;
+  color: white;
+}
+.nav-portal-mid ul {
+  display: flex;
+  width: 100%;
+  margin: 16px 20px 0px 20px;
+}
+.nav-portal-mid ul li{
+  margin: 0px 20px 0px 0px;
+}
+.nav-portal-mid ul li:hover{
+  color: aqua;
+}
+.logoutbtn{
+  padding-left: 850px;
+}
+.logoutin{
+  margin-top: -4px;
+} */
+
+.nav-portal-mid{
+  width:100%;
+  height:80px;
+  background-color: #111827;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-portal-mid ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 5px;
+  text-decoration: none;
+  
+}
+
+.nav-portal-mid ul li{
+  margin-left: 15px;
+  margin-top: 25px;
+
+}
+
+.nav-portal-mid ul li a{
+  text-decoration: none;
+}
+.nav-portal-mid ul li a:hover{
+  color:coral;
+}
+
+.logoutbtn{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.logoutin{
+  margin-top: -10px;
+  border-color: white;
+  margin-right: 25px;
+  border-radius: 8px;
+}
+
+.logoutin:hover{
+  color: #111827;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.dashboard-all-users {
+  display: flex;
+  flex-wrap: wrap;
+  width: 99vw;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.felicitator-card {
+  padding: 0.8rem;
+  background: grey;
+  width: 18vw;
+  margin-top: 1.8rem;
+  border-radius: 8px;
+}
+.fel-card-s1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fel-card-s1 h1 {
+  font-size: 1.5rem;
+  width: 70%;
+  text-overflow: clip;
+  font-weight: 600;
+}
+.fel-card-s1 button {
+  border: none;
+}
+.fel-card-s3-games {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fel-card-s3 h3 {
+  font-weight: 600;
+}
+/*            Game Store            */
+
+.game-store h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.game-store-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 99vw;
+  justify-content: space-evenly;
+}
+.game-card {
+  padding: 0.8rem;
+  background: #527ed8;
+  width: 17vw;
+  margin-top: 1.8rem;
+  margin: 0.8rem;
+  border-radius: 8px;
+  color: white;
+}
+.game-card a {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-overflow: initial;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  width: 97%;
+}
+th,
+td {
+  text-align: center;
+}
+.client-all-games {
+  margin: 1rem;
+}
+.client-ads {
+  margin: 1rem;
+
+  width: 99%;
+  display: flex;
+  justify-content: center;
+}
+.sliderimg {
+  width: 95%;
+  height: 500px;
+}
+.contactPage {
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 99.999vw;
+  height: 99.99vh;
+  background: rgb(219, 215, 210, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dashboard-all-users {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+.bookings {
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+.active-users{
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+.carousel{
+  background-color: #0e153a;
+}

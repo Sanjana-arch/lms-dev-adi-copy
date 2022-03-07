@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Fallon",
+    "email": "framos0@desdev.cn",
+    "phone": "4922692228",
+    "password": "HsFLLI",
+    "role": "Construction Manager",
+    "total_games": ["Noriko's Dinner Table (Noriko no shokutaku)"],
+    "date": "21/02/2021"
+  },
+  {
+    "id": 2,
+    "name": "Hollie",
+    "email": "hfawcitt1@linkedin.com",
+    "phone": "5432046963",
+    "password": "qyVBFiCWyU",
+    "role": "Construction Expeditor",
+    "total_games": ["Trilogy: The Weeping Meadow (Trilogia: To livadi pou dakryzei)"],
+    "date": "14/10/2021"
+  },
+  {
+    "id": 3,
+    "name": "Karon",
+    "email": "ktotterdell2@netvibes.com",
+    "phone": "1115332641",
+    "password": "mGSqFL",
+    "role": "Construction Expeditor",
+    "total_games": ["Dickson Greeting"],
+    "date": "28/12/2021"
+  },
+  {
+    "id": 4,
+    "name": "Florida",
+    "email": "fwagen3@xinhuanet.com",
+    "phone": "3156258564",
+    "password": "H38YKRJ6",
+    "role": "Project Manager",
+    "total_games": ["Sorcerer and the White Snake, The (Bai she chuan shuo)"],
+    "date": "08/10/2021"
+  },
+  {
+    "id": 5,
+    "name": "Imogen",
+    "email": "inesby4@umich.edu",
+    "phone": "7036823338",
+    "password": "NyJrtfrXDhK",
+    "role": "Subcontractor",
+    "total_games":[ "Alice Upside Down (Alice)"],
+    "date": "11/10/2021"
+  },
+  {
+    "id": 6,
+    "name": "Rubi",
+    "email": "rskillern5@engadget.com",
+    "phone": "4492524823",
+    "password": "ATuQJINz10K",
+    "role": "Surveyor",
+    "total_games": ["Life and Times of Hank Greenberg, The"],
+    "date": "05/08/2021"
+  },
+  {
+    "id": 7,
+    "name": "Hagen",
+    "email": "hbakeup6@pen.io",
+    "phone": "7887939095",
+    "password": "hvK3egm",
+    "role": "Surveyor",
+    "total_games": ["Group Sex"],
+    "date": "08/06/2021"
+  },
+  {
+    "id": 8,
+    "name": "Kipper",
+    "email": "kirvin7@amazon.co.uk",
+    "phone": "3139937758",
+    "password": "dcUYEj0Ad1y",
+    "role": "Engineer",
+    "total_games": ["Dangerous Liaisons"],
+    "date": "12/08/2021"
+  },
+  {
+    "id": 9,
+    "name": "Garv",
+    "email": "gtrice8@google.com.hk",
+    "phone": "3654487582",
+    "password": "zafz2Runaw",
+    "role": "Surveyor",
+    "total_games": ["Cat's Eye"],
+    "date": "13/11/2021"
+  },
+  {
+    "id": 10,
+    "name": "De witt",
+    "email": "dbainbrigge9@amazon.co.uk",
+    "phone": "6172799598",
+    "password": "uoxob3WgvQX",
+    "role": "Construction Foreman",
+    "total_games": ["Carter, The"],
+    "date": "19/01/2021"
+  },
+  {
+    "id": 11,
+    "name": "Danette",
+    "email": "dgogertya@noaa.gov",
+    "phone": "4732631017",
+    "password": "ixVFQgqNom",
+    "role": "Construction Manager",
+    "total_games": ["Ballad of Jack and Rose, The"],
+    "date": "14/10/2021"
+  },
+  {
+    "id": 12,
+    "name": "Cheston",
+    "email": "cfearnleyb@example.com",
+    "phone": "6864354835",
+    "password": "f2hvGrfA",
+    "role": "Architect",
+    "total_games": ["Forks Over Knives"],
+    "date": "23/07/2021"
+  },
+  {
+    "id": 13,
+    "name": "Netta",
+    "email": "ncorintonc@yahoo.com",
+    "phone": "2357874103",
+    "password": "4Ml0Zfs3j",
+    "role": "Construction Manager",
+    "total_games": ["Robinson Crusoe on Mars"],
+    "date": "15/05/2021"
+  },
+  {
+    "id": 14,
+    "name": "Mel",
+    "email": "mcraggd@skype.com",
+    "phone": "3781541858",
+    "password": "hHK3z911Q",
+    "role": "Subcontractor",
+    "total_games": ["Casting Couch"],
+    "date": "28/01/2021"
+  },
+  {
+    "id": 15,
+    "name": "Emogene",
+    "email": "edodworthe@pinterest.com",
+    "phone": "8455880220",
+    "password": "MqhnmYRTJU",
+    "role": "Construction Expeditor",
+    "total_games": ["Chinese Ghost Story, A (Sinnui yauwan)"],
+    "date": "14/02/2021"
+  },
+  {
+    "id": 16,
+    "name": "Boigie",
+    "email": "besmondef@hud.gov",
+    "phone": "5617564624",
+    "password": "nZlKggAgxj9E",
+    "role": "Supervisor",
+    "total_games": ["World War II: When Lions Roared"],
+    "date": "05/06/2021"
+  }
+]
